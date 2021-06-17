@@ -1,0 +1,25 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ion-searchbar{
+    margin-top: 5px;
+}
+
+ion-card{
+    background-color: #222428;
+
+    div{
+        h1{
+            font-size: 0.65rem;
+            font-weight: bold;
+            color:#f4f5f8;
+        }
+
+        p{
+            font-size: 0.6rem;
+            font-weight: 100;
+            color:#8a8a8a;
+        }
+    }
+}

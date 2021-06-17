@@ -1,17 +1,65 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="dark">
     <ion-title>
-      Tab 1
+      Bandas
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content [fullscreen]="true" color="light">
+  <ion-searchbar placeholder="Buscar Banda" color="dark"></ion-searchbar>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-grid>
+    <ion-row class="ion-text-center">
+      <ion-col>
+        <ion-card routerLink="/aerosmith">
+          <img src="assets\imgs\bandas\aerosmith.jpg">
+          <ion-label>
+            <div>
+              <h1>Aerosmith</h1>
+              <p>Hard Rock</p>
+            </div>
+          </ion-label>
+        </ion-card>
+      </ion-col>
+
+      <ion-col>
+        <ion-card routerLink="/bon-jovi">
+          <img src="assets\imgs\bandas\bon-jovi.jpg">
+          <ion-label>
+            <div>
+              <h1>Bon Jovi</h1>
+              <p>Hard Rock</p>
+            </div>
+          </ion-label>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="ion-text-center">
+      <ion-col>
+        <ion-card routerLink="/guns">
+          <img src="assets\imgs\bandas\guns.jpg">
+          <ion-label>
+            <div>
+              <h1>Guns N' Roses</h1>
+              <p>Hard Rock</p>
+            </div>
+          </ion-label>
+        </ion-card>
+      </ion-col>
+
+      <ion-col>
+        <ion-card routerLink="/nirvana">
+          <img src="assets\imgs\bandas\nirvana.jpg">
+          <ion-label>
+            <div>
+              <h1>Nirvana</h1>
+              <p>Grunge</p>
+            </div>
+          </ion-label>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
