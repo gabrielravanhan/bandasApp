@@ -74,4 +74,21 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+  /** preto-cinza **/
+  --ion-color-preto-cinza: #333B40;
+  --ion-color-preto-cinza-rgb: 51,59,64;
+  --ion-color-preto-cinza-contrast: #ffffff;
+  --ion-color-preto-cinza-contrast-rgb: 255,255,255;
+  --ion-color-preto-cinza-shade: #2d3438;
+  --ion-color-preto-cinza-tint: #474f53;
+}
+
+.ion-color-preto-cinza {
+  --ion-color-base: var(--ion-color-preto-cinza);
+  --ion-color-base-rgb: var(--ion-color-preto-cinza-rgb);
+  --ion-color-contrast: var(--ion-color-preto-cinza-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-preto-cinza-contrast-rgb);
+  --ion-color-shade: var(--ion-color-preto-cinza-shade);
+  --ion-color-tint: var(--ion-color-preto-cinza-tint);
 }

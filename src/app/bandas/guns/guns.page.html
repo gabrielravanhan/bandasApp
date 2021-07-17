@@ -7,54 +7,140 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content color="light">
-  <ion-card class="ion-text-center">
-    <img src="assets\imgs\bandas\guns.jpg">
+<ion-content color="preto-cinza">
+  <ion-card class="banner">
+    <ion-card-header>
+      <div class="ion-text-center">
+        <img src="assets\imgs\bandas\guns.jpg">
+
+        <ion-card-title>Gun N' Roses</ion-card-title>
+      </div>
+
+      <ion-card-subtitle>Sobre</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      Guns N' Roses é uma banda norte-americana de hard rock formada em Los Angeles, Califórnia, em 1985. A banda já
+      vendeu mais de 100 milhões de cópias de seus lançamentos em todo o mundo.
+    </ion-card-content>
   </ion-card>
 
-  <ion-label>
-    <div>
-      <h1>Álbuns</h1>
-    </div>
-  </ion-label>
+  <div>
+    <h1>Músicas Populares</h1>
 
-  <ion-grid >
-    <ion-row class="ion-text-center" >
-      <ion-col>
-        <ion-card class="margem-albuns">
-          <img src="assets\imgs\albuns\app-for-des.jpg">
-          <ion-label>
-            <div>
-              <h2>Appetite For Destruction</h2>
-              <p>Guns N' Roses - 1987</p>
-            </div>
-          </ion-label>
-        </ion-card>
-      </ion-col>
-  
-      <ion-col>
-        <ion-card class="margem-albuns">
+    <ion-list class="musicas-populares">
+      <ion-item lines="full" color="preto-cinza">
+        <ion-thumbnail slot="start">
           <img src="assets\imgs\albuns\use-your-illusion-i.jpg">
-          <ion-label>
-            <div>
-              <h2>Use Your Illusion I</h2>
-              <p>Guns N' Roses - 1991</p>
-            </div>
-          </ion-label>
-        </ion-card>
-      </ion-col>
-  
-      <ion-col>
-        <ion-card class="margem-albuns">
+        </ion-thumbnail>
+        <ion-label slot="start">November Rain</ion-label>
+
+        <ion-label>
+          <ion-note color="medium">8:56</ion-note>
+        </ion-label>
+
+        <ion-icon name="play" slot="end" color="medium"></ion-icon>
+      </ion-item>
+
+      <ion-item lines="full" color="preto-cinza">
+        <ion-thumbnail slot="start">
+          <img src="assets\imgs\albuns\app-for-des.jpg">
+        </ion-thumbnail>
+        <ion-label slot="start">Sweet Child O' Mine</ion-label>
+
+        <ion-label>
+          <ion-note color="medium">8:56</ion-note>
+        </ion-label>
+
+        <ion-icon name="play" slot="end" color="medium"></ion-icon>
+      </ion-item>
+
+      <ion-item lines="full" color="preto-cinza">
+        <ion-thumbnail slot="start">
+          <img src="assets\imgs\albuns\app-for-des.jpg">
+        </ion-thumbnail>
+        <ion-label slot="start">Welcome To The Jungle</ion-label>
+
+        <ion-label>
+          <ion-note color="medium">8:56</ion-note>
+        </ion-label>
+
+        <ion-icon name="play" slot="end" color="medium"></ion-icon>
+      </ion-item>
+
+      <ion-item lines="full" color="preto-cinza">
+        <ion-thumbnail slot="start">
+          <img src="assets\imgs\albuns\app-for-des.jpg">
+        </ion-thumbnail>
+        <ion-label slot="start">Paradise City</ion-label>
+
+        <ion-label>
+          <ion-note color="medium">8:56</ion-note>
+        </ion-label>
+
+        <ion-icon name="play" slot="end" color="medium"></ion-icon>
+      </ion-item>
+
+      <ion-item lines="full" color="preto-cinza">
+        <ion-thumbnail slot="start">
           <img src="assets\imgs\albuns\use-your-illusion-ii.jpg">
-          <ion-label>
-            <div>
-              <h2>Use Your Illusion II</h2>
-              <p>Guns N' Roses - 1991</p>
-            </div>
-          </ion-label>
-        </ion-card>
-      </ion-col>
-    </ion-row>
-  </ion-grid>
+        </ion-thumbnail>
+        <ion-label slot="start">Knockin' On Heaven's Door</ion-label>
+
+        <ion-label>
+          <ion-note color="medium">8:56</ion-note>
+        </ion-label>
+
+        <ion-icon name="play" slot="end" color="medium"></ion-icon>
+      </ion-item>
+    </ion-list>
+  </div>
+
+  <div class="albuns">
+    <ion-label>
+      <div>
+        <h1>Álbuns</h1>
+      </div>
+    </ion-label>
+
+    <ion-grid>
+      <ion-row class="ion-text-center">
+        <ion-col>
+          <ion-card>
+            <img src="assets\imgs\albuns\app-for-des.jpg">
+            <ion-label>
+              <div>
+                <h2>Appetite For Destruction</h2>
+                <p>Guns N' Roses - 1987</p>
+              </div>
+            </ion-label>
+          </ion-card>
+        </ion-col>
+
+        <ion-col>
+          <ion-card>
+            <img src="assets\imgs\albuns\use-your-illusion-i.jpg">
+            <ion-label>
+              <div>
+                <h2>Use Your Illusion I</h2>
+                <p>Guns N' Roses - 1991</p>
+              </div>
+            </ion-label>
+          </ion-card>
+        </ion-col>
+
+        <ion-col>
+          <ion-card>
+            <img src="assets\imgs\albuns\use-your-illusion-ii.jpg">
+            <ion-label>
+              <div>
+                <h2>Use Your Illusion II</h2>
+                <p>Guns N' Roses - 1991</p>
+              </div>
+            </ion-label>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
 </ion-content>
