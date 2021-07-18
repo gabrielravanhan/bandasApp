@@ -10,35 +10,28 @@ h1 {
     font-weight: bold;    
 }      
 
-.banner {
-    padding:  1rem;
-    background-color: #222428;
-    border-radius: 1rem;
+.card-sobre {
+    background-color: #333b40;
+    border: #222428 solid  0.2rem;
+    border-radius: 0.5rem;
 
     ion-card-header {
-        padding: 0.3rem;
+        padding: 0.6rem 0.6rem 0 0.6rem;
 
         img {
-            border-radius: 1rem;
+            border-radius: 0.5rem;
         }
     
         ion-card-title {
             color: #f4f5f8;
-            margin: 0.5rem 0 0.5rem 0;
-            font-size: 0.9;
+            margin: 0.5rem 0 0 0;
             font-weight: 700;
-        }
-    
-        ion-card-subtitle {
-            margin: 0;
-            font-weight: 750;
         }
     }
         
     ion-card-content {
-        padding: 0.3rem;
+        padding: 0 0.6rem 0.6rem 0.6rem;
         text-align: justify;
-        font-size: 0.9rem;
     }
 }
 
@@ -49,34 +42,49 @@ h1 {
             background-color: #333b40;
 
             ion-label {
-                margin: 0 0 0 10px;
+                margin: 0 0 0 0.5rem;
             }
         }
 }
 
-.albuns {
-    ion-grid {
+.grid-albuns {
+    padding: 0;
+
+    ion-row {
         padding: 0;
-        
-        
+
+        ion-col {
+            padding: 0;
+
             ion-card {
-                padding: 0.5rem;
-                background-color: #222428;
-                margin-top: 0;
-                white-space: nowrap;
+                background-color: #333b40;
+                border: #222428 solid  0.2rem;
+                border-radius: 0.5rem;
             
-                h2 {
-                    font-size: 0.4rem;
-                    font-weight: bold;
-                    color:#f4f5f8;
-                
+                ion-card-header {
+                    padding: 0.3rem 0.3rem 0 0.3rem;
+                    text-align: center;
+
+                    img {
+                        border-radius: 0.5rem;
+                    }
+
+                    ion-card-title {
+                        color:#f4f5f8;
+                        font-size: 0.7rem;
+                        
+                    }
                 }
             
-                p {
-                    font-size: 0.4rem;
-                    font-weight: 100;
-                    color:#8a8a8a;
+                ion-card-content {
+                    padding: 0.3rem 0.3rem 0 0.3rem;
+                    font-size: 0.6rem;
                 }
-            }
+
+                .ano {
+                    padding-top: 0;
+                }
+            }   
+        }
     }
 }
