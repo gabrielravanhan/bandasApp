@@ -15,23 +15,26 @@
                 background-color: #333b40;
                 border: #222428 solid  0.2rem;
                 border-radius: 0.5rem;
-            
+
                 ion-card-header {
                     padding: 0.6rem 0.6rem 0 0.6rem;
                     text-align: center;
 
                     img {
                         border-radius: 50%;
-                        
+
                     }
                 }
-            
+
                 ion-card-content {
                     padding: 0.6rem;
                     color:#f4f5f8;
                     font-size: 0.7rem;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
                 }
-            }   
+            }
         }
     }
 }

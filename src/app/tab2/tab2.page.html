@@ -1,163 +1,63 @@
 <ion-header [translucent]="true">
   <ion-toolbar color="dark">
     <ion-title>
-      Álbuns
+      Bandas
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true" color="preto-cinza">
-  <ion-searchbar placeholder="Buscar Álbum" color="dark"></ion-searchbar>
+  <ion-searchbar placeholder="Buscar Banda" color="dark"></ion-searchbar>
 
-  <ion-grid>
-    <ion-row class="ion-text-center">
-      <ion-col>
-        <ion-card>
-          <img src="assets\imgs\albuns\permanent-vacation.jpg">
-          <ion-label>
-            <div>
-              <h1>Permanent Vacation</h1>
-              <p>Aerosmith - 1987</p>
-            </div>
-          </ion-label>
+  <ion-grid class="grid-bandas">
+    <ion-row>
+      <ion-col size="6">
+        <ion-card routerLink="/aerosmith">
+          <ion-card-header>
+            <img src="assets\imgs\bandas\aerosmith.jpg">
+          </ion-card-header>
+
+          <ion-card-content>
+            Aerosmith
+          </ion-card-content>
         </ion-card>
       </ion-col>
 
-      <ion-col>
-        <ion-card>
-          <img src="assets\imgs\albuns\pump.jpg">
-          <ion-label>
-            <div>
-              <h1>Pump</h1>
-              <p>Aerosmith - 1989</p>
-            </div>
-          </ion-label>
-        </ion-card>
-      </ion-col>
+      <ion-col size="6">
+        <ion-card routerLink="/bon-jovi">
+          <ion-card-header>
+            <img src="assets\imgs\bandas\bon-jovi.jpg">
+          </ion-card-header>
 
-      <ion-col>
-        <ion-card>
-          <img src="assets\imgs\albuns\get-a-grip.jpg">
-          <ion-label>
-            <div>
-              <h1>Get A Grip</h1>
-              <p>Aerosmith - 1993</p>
-            </div>
-          </ion-label>
+          <ion-card-content>
+            Bon Jovi
+          </ion-card-content>
         </ion-card>
       </ion-col>
     </ion-row>
 
-    <ion-row class="ion-text-center">
-      <ion-col>
-        <ion-card>
-          <img src="assets\imgs\albuns\slip-when-wet.jpg">
-          <ion-label>
-            <div>
-              <h1>Slippery When Wet</h1>
-              <p>Bon Jovi - 1986</p>
-            </div>
-          </ion-label>
+    <ion-row>
+      <ion-col size="6">
+        <ion-card routerLink="/guns">
+          <ion-card-header>
+            <img src="assets\imgs\bandas\guns.jpg">
+          </ion-card-header>
+
+          <ion-card-content>
+            Guns N' Roses
+          </ion-card-content>
         </ion-card>
       </ion-col>
 
-      <ion-col>
-        <ion-card>
-          <img src="assets\imgs\albuns\new-jersey.jpg">
-          <ion-label>
-            <div>
-              <h1>New Jersey</h1>
-              <p>Bon Jovi - 1988</p>
-            </div>
-          </ion-label>
-        </ion-card>
-      </ion-col>
+      <ion-col size="6">
+        <ion-card routerLink="/nirvana">
+          <ion-card-header>
+            <img src="assets\imgs\bandas\nirvana.jpg">
+          </ion-card-header>
 
-      <ion-col>
-        <ion-card>
-          <img src="assets\imgs\albuns\these-days.jpg">
-          <ion-label>
-            <div>
-              <h1>These Days</h1>
-              <p>Bon Jovi - 1995</p>
-            </div>
-          </ion-label>
-        </ion-card>
-      </ion-col>
-    </ion-row>
-
-    <ion-row class="ion-text-center">
-      <ion-col>
-        <ion-card>
-          <img src="assets\imgs\albuns\app-for-des.jpg">
-          <ion-label>
-            <div>
-              <h1>Appetite For Destruction</h1>
-              <p>Guns N' Roses - 1987</p>
-            </div>
-          </ion-label>
-        </ion-card>
-      </ion-col>
-
-      <ion-col>
-        <ion-card>
-          <img src="assets\imgs\albuns\use-your-illusion-i.jpg">
-          <ion-label>
-            <div>
-              <h1>Use Your Illusion I</h1>
-              <p>Guns N' Roses - 1991</p>
-            </div>
-          </ion-label>
-        </ion-card>
-      </ion-col>
-
-      <ion-col>
-        <ion-card>
-          <img src="assets\imgs\albuns\use-your-illusion-ii.jpg">
-          <ion-label>
-            <div>
-              <h1>Use Your Illusion II</h1>
-              <p>Guns N' Roses - 1991</p>
-            </div>
-          </ion-label>
-        </ion-card>
-      </ion-col>
-    </ion-row>
-
-    <ion-row class="ion-text-center">
-      <ion-col>
-        <ion-card>
-          <img src="assets\imgs\albuns\bleach.jpg">
-          <ion-label>
-            <div>
-              <h1>Bleach</h1>
-              <p>Nirvana - 1989</p>
-            </div>
-          </ion-label>
-        </ion-card>
-      </ion-col>
-
-      <ion-col>
-        <ion-card>
-          <img src="assets\imgs\albuns\nevermind.jpg">
-          <ion-label>
-            <div>
-              <h1>Nevermind</h1>
-              <p>Nirvana - 1991</p>
-            </div>
-          </ion-label>
-        </ion-card>
-      </ion-col>
-
-      <ion-col>
-        <ion-card>
-          <img src="assets\imgs\albuns\in-utero.jpg">
-          <ion-label>
-            <div>
-              <h1>In Utero</h1>
-              <p>Nirvana - 1993</p>
-            </div>
-          </ion-label>
+          <ion-card-content>
+            Nirvana
+          </ion-card-content>
         </ion-card>
       </ion-col>
     </ion-row>

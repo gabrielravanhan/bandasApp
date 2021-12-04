@@ -1,65 +1,22 @@
 <ion-header [translucent]="true">
   <ion-toolbar color="dark">
     <ion-title>
-      Bandas
+      Home
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true" color="preto-cinza">
-  <ion-searchbar placeholder="Buscar Banda" color="dark"></ion-searchbar>
 
-  <ion-grid class="grid-bandas">
-    <ion-row>
-      <ion-col>
-        <ion-card routerLink="/aerosmith">
-          <ion-card-header>
-            <img src="assets\imgs\bandas\aerosmith.jpg">
-          </ion-card-header>
-
-          <ion-card-content>
-            Aerosmith
-          </ion-card-content>
-        </ion-card>
-      </ion-col>
-
-      <ion-col>
-        <ion-card routerLink="/bon-jovi">
-          <ion-card-header>
-            <img src="assets\imgs\bandas\bon-jovi.jpg">
-          </ion-card-header>
-
-          <ion-card-content>
-            Bon Jovi
-          </ion-card-content>
-        </ion-card>
-      </ion-col>
-    </ion-row>
-
-    <ion-row>
-      <ion-col>
-        <ion-card routerLink="/guns">
-          <ion-card-header>
-            <img src="assets\imgs\bandas\guns.jpg">
-          </ion-card-header>
-
-          <ion-card-content>
-            Guns N' Roses
-          </ion-card-content>
-        </ion-card>
-      </ion-col>
-
-      <ion-col>
-        <ion-card routerLink="/nirvana">
-          <ion-card-header>
-            <img src="assets\imgs\bandas\nirvana.jpg">
-          </ion-card-header>
-
-          <ion-card-content>
-            Nirvana
-          </ion-card-content>
-        </ion-card>
-      </ion-col>
-    </ion-row>
-  </ion-grid>
+  <ion-fab vertical="center" horizontal="center" slot="fixed">
+    <ion-fab-button>
+      <ion-tabs>
+        <ion-tab-bar color="dark">
+          <ion-tab-button tab="tab2">
+            <ion-icon name="skull"></ion-icon>
+          </ion-tab-button>
+        </ion-tab-bar>
+      </ion-tabs>
+    </ion-fab-button>
+  </ion-fab>
 </ion-content>
